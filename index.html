@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <div class="main">
+        <input type="text" id="disply" readonly>
+        
+        <div class="btns">
+     
+        <button onclick="clearall()" class="btn-red">AC</button>
+        <button onclick="delchar()" class="btn-yellow">C</button>
+        <button onclick="append('%')" class="btn-yellow">%</button>
+        <button onclick="append('/')" class="btn-yellow">/</button>
+
+        <button onclick="append('7')" class="btn-white">7</button>
+        <button onclick="append('8')" class="btn-white">8</button>
+        <button onclick="append('9')" class="btn-white">9</button>
+        <button onclick="append('*')" class="btn-yellow">x</button>
+
+        <button onclick="append('4')" class="btn-white">4</button>
+        <button onclick="append('5')" class="btn-white">5</button>
+        <button onclick="append('6')" class="btn-white">6</button>
+        <button onclick="append('-')" class="btn-yellow">-</button>
+
+        <button onclick="append('1')" class="btn-white">1</button>
+        <button onclick="append('2')" class="btn-white">2</button>
+        <button onclick="append('3')" class="btn-white">3</button>
+        <button onclick="append('+')" class="btn-yellow">+</button>
+
+        <button onclick="append('00')" class="btn-white">00</button>
+        <button onclick="append('0')" class="btn-white">0</button>
+        <button onclick="append('.')" class="btn-white">.</button>
+        <button onclick="calculate( )" class="btn-yellow">=</button>
+
+        </div>
+       </div>
+</body>
+  <script src="app.js"></script>
+</html>
