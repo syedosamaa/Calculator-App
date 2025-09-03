@@ -18,7 +18,7 @@ body{
     border: 3px solid #1E1E1E;
     background-color: #1E1E1E;
     border-radius: 15px;
-    margin: 10vh  12vw;
+    margin: 50px  0px;
     padding: 20px 3px;
 }
 
@@ -26,10 +26,10 @@ input{
     background-color: #00000088;
     border:none;
     color: white;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 600;
-    margin: 10px 5px;
-    padding: 28px  8px;
+    margin: 10px 6px;
+    padding: 35px  10px;
     border-radius: 8px;
     text-align: right;
       
